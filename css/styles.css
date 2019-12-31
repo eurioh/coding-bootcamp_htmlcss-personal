@@ -10,12 +10,18 @@ hr{
     width: 5%;
 }
 
+input {
+    margin:5px;
+    padding: 5px;
+}
+
 
 .profile {
     color: blue;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin: 30px;
 }
 
 
