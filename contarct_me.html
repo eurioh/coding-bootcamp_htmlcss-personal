@@ -13,37 +13,39 @@
 </head>
 <body>
     <h1> Contact me</h1>
-    <form class+"" action="mailto:email@gmail.com" enctype="text/plain"></form>
-    <lable>Your First name: </lable>    
-    <input type="text" name="yourFirstName" value="">
+    <div class="contactMe">
+    <form class="" action="mailto:email@gmail.com" enctype="text/plain"></form>
+    
+    <!-- putting names -->
+    <div class="name">
+        <input type="text" id="fname" name="firstname" placeholder="First name">
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Last name">
+        <br>
+    <!-- putting email -->
+    <input type="text" id="email" name="email" placeholder="E-mail">
+    
     <br>
+    <textarea name="yourMessage" rows="10" cols ="80" placeholder="Message"></textarea>
+    </div>
 
-    <lable>Your Last name: </lable>    
-    <input type="text" name="yourLastName" value="">
-    <br>
-
-    <lable>Your email address: </lable>    
-    <input type="email" name="yourEmail" value="">
-    <!-- <input type="color" name="" value=""> -->
-    <br>
-
-    <textarea name="yourMessage" rows="10" cols ="80"></textarea>
     <br>
 
     <label> Would you like to join our newsletter?</label>
     <input type="checkbox" name="checkBox" value="">
-    
-    <input type="submit" name=""> 
-
+    <br>
+    <input class="myButton" type="submit" name=""> 
+    </div>  
 </body>
 
-<footer> 
-    <ul>
-        <li><a href=""> LinkedIn</a></li>
-        <li><a href="">Pinterest</a></li>
-        <li><a href="">FaceBook</a></li>
+<footer>
 
-    </ul>
-    copyright 
+    <a href=""> LinkedIn</a>
+    <a href="">Pinterest</a>
+    <a href="">FaceBook</a>
+    
+
+    <p class="copyright"> ©2020 Euri Elliot Oh </p>
 </footer>
+
 </html>

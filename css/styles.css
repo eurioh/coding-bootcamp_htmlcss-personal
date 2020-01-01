@@ -1,8 +1,14 @@
 body{
     background-color: #EAF6F6;
+    text-align: center;
+}
+
+h1{
+    margin: 30px;
 }
 
 hr{
+    margin: 5% auto 5% auto;
     border-style:none;
     border-top-style: dotted;
     border-color: grey;
@@ -15,18 +21,143 @@ input {
     padding: 5px;
 }
 
+.hero{
+    
+
+}
+
+.intro {
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+
+}
+
+
 
 .profile {
-    color: blue;
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin: 30px;
 }
 
+.devimage{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float:left;
+    margin:30px;
+    clear: left;
+
+}
+
+.cadimage{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: right;
+    margin: 30px;
+    
+}
+
+.myskill{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    
+    
+}
+
+.myButton {
+    margin: 20px auto 40px auto;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton a{
+    color:white;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+a{
+    text-decoration:none;
+    margin-bottom: 10px;
+    padding: 20px; 
+}
+
+
+footer a {
+    color:#11999E;
+    
+}
+
+
+.copyright{
+    margin: 10px 5px;
+    padding: 10px 5px;
+    color:white;
+}
 
 footer{
-    background-color: #EAF6F6;
+    margin-bottom:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
+    background-color: #66BFBF;
+    padding: 20px 0;
     text-decoration: none;
 
+}
+
+
+.contactMe{
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 100px;
+    
+}
+
+.name{
+    /* display:grid; */
+    /* grid-template-columns: 49% 49%;
+    grid-gap: 5px;     */
+    text-align: left;
+    
+}
+
+input{
+    font-size:18px;
+    font-weight: 350;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid #c5c6cb;
+    margin: 10px auto;
+}
+textarea{
+    width: 80%;
+    font-size:18px;
+    font-weight: 350;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid #c5c6cb;
 }
